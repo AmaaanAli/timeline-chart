@@ -1,0 +1,69 @@
+body,
+html {
+    font-family: arial, sans-serif;
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+}
+
+#visualization {
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+}
+
+.timeline-container {
+    height: 600px;
+    overflow-y: auto;
+}
+
+.red-tooltip {
+    background-color: red !important;
+    color: green;
+}
+
+.vis-item.light-orange {
+    background-color: #FFB84D;
+}
+
+.vis-item.light-blue {
+    background-color: #ADD8E6;
+}
+
+.vis-item.green {
+    background-color: #4CAF50;
+}
+
+.test-color {
+    background-color: #004080 !important;
+    color: #ffffff !important;
+}
+
+@media (max-width: 600px) {
+
+    .MuiButtonGroup-root {
+        flex-direction: column;
+    }
+
+    .MuiButton-root {
+        margin-bottom: 8px;
+    }
+
+    .timeline-container {
+        height: 400px;
+    }
+
+    .MuiButton-root {
+        width: 100%;
+    }
+
+    .MuiButton-root {
+        padding: 12px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .MuiButtonGroup-root {
+        padding: 0;
+    }
+}
